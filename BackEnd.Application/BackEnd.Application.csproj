@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackEnd.Domain\BackEnd.Domain.csproj" />
+    <ProjectReference Include="..\BackEnd.Infra.Data\BackEnd.Infra.Data.csproj" />
+    <ProjectReference Include="..\BackEnd.Infra.Utils\BackEnd.Infra.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
